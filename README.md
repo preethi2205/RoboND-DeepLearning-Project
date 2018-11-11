@@ -1,20 +1,20 @@
 [//]: # (Image References)
 
 [imageQuadSimulator]: ./Pictures/imageQuadSimulator.PNG
-[imagePatch]: ./Pictures/imagePatch.PNG
+[imagePatch]: ./Pictures/imagePatch.png
 [imageCovNetExample]: ./Pictures/imageCovNetExample.PNG
 [imageFCNArchitecture]: ./Pictures/imageFCNArchitecture.PNG
 [imageMyFCNArch]: ./Pictures/imageMyFCN.PNG
 [imageTrainingCurves]: ./Pictures/imageTrainingCurve.PNG
-[imageTargetIdentified]: ./Pictures/imageTargetIdentified.PNG
+[imageTargetIdentified]: ./Pictures/imageTargetIdentified.png
 [imageTargetIdentified2]: ./Pictures/imageTargetIdentified2.png
 [imageTargetIdentified3]: ./Pictures/imageTargetIdentified3.png
 [imageFalseTargetIgnored]: ./Pictures/imageFalseTargetIgnored.png
 [imageFalseTargetIgnored2]: ./Pictures/imageFalseTargetIgnored2.png
 [imageFarTargetIdentified]: ./Pictures/imageFarTargetIdentified.png
 [imageFarTargetMissed]: ./Pictures/imageFarTargetMissed.png
-[imageTargetFollowingScore]: ./Pictures/imageTargetFollowingScore.png
-[imageNoTargetScore]: ./Pictures/imageNoTargetScore.png
+[imageTargetFollowingScore]: ./Pictures/imageTargetFollowingScore.PNG
+[imageNoTargetScore]: ./Pictures/imageNoTargetScore.PNG
 [imageFarTargetScore]: ./Pictures/imageFarTargetScore.PNG
 [imageFinalScore]: ./Pictures/imageFinalScore.PNG
 
@@ -141,7 +141,7 @@ As we can see, there is a lot of room for improvement in the IOU score. Here are
 3. 250 epochs were used to train the network with 75 steps per epoch. It might be time saving to use far fewer epochs, with a larger number of steps per epoch to increase the training accuracy.
 4. More depth can be added to the architecture by doubling the 1x1 convolution layer to a depth of 256.
 5. A limitation of this model is that this particular FCN has been trained on human images. It is not generalizable to other scene recognition tasks which involve identification of animals or cars, for example.
-6.
+
 ### Source code for the project
 
 1. [Model setup and training](./code/model_training.ipynb)
